@@ -1,18 +1,3 @@
-import { combineReducers } from 'redux';
-import BooksReducer from './reducer_books';
-
-const rootReducer = combineReducers({
-		books: BooksReducer
-});
-
-export default rootReducer;
-
-
-
-
-
-
-/*
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -28,4 +13,3 @@ ReactDOM.render(
     <App />
   </Provider>
   , document.querySelector('.container'));
-*/
